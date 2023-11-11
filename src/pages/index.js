@@ -1,15 +1,17 @@
-import Layout from '@/layout'
 import React from 'react'
 import Card1 from './Card1'
 import Card2 from './Card2'
 import Card3 from './Card3'
 import Card4 from './Card4'
 import Card5 from './Card5'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 
 const index = () => {
   return (
-    <Layout>
+    <>
+    <Navbar/>
       <div className='bg-[#2B5B84] h-[90vh]'>
         <div className='flex'>
           <div>
@@ -177,13 +179,11 @@ const index = () => {
         </div>
         <p className='text-white font-normal text-3xl tracking-wide mt-3 text-center mt-6'>Get tips to Grow Your Business once a week.</p>
       </div>
+     <Footer/>
+      </>
 
 
-
-
-
-
-    </Layout>
+   
   )
 }
 
