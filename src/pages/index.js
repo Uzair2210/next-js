@@ -1,9 +1,9 @@
 import React from 'react'
-import Card1 from './Card1'
-import Card2 from './Card2'
-import Card3 from './Card3'
-import Card4 from './Card4'
-import Card5 from './Card5'
+import Card1 from '../components/Card1'
+import Card2 from '../components/Card2'
+import Card3 from '../components/Card3'
+import Card4 from '../components/Card4'
+import Card5 from '../components/Card5'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -151,8 +151,8 @@ const index = () => {
       <div className='text-center'>
         <h2 className='text-[#2B5B84] text-center font-bold text-4xl my-16'>Learn & Be Inspired</h2>
         <div className='grid lg:grid-cols-3 gap-8 mx-[170px] shadow-lg rounded-xl'>
-          {Card5.map(Card5 => (
-            <div className='rounded-3xl shadow-lg border border-2 border-[#2B5B84]'>
+          {Card5.map((Card5,i) => (
+            <div key={i} className='rounded-3xl shadow-lg border border-2 border-[#2B5B84]'>
               <img className='rounded-2xl' src={Card5.img} />
               <h2 className='text-center text-2xl font-bold text-[#2B5B84] px-3 pt-8 pb-12'>{Card5.title}</h2>
             </div>
