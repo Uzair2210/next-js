@@ -38,13 +38,13 @@ const Navbar = () => {
    </div>
    {isClick &&(
     <div className='md:hidden'>
-      <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
+      <div className='px-1 pt-2 pb-3 space-y-1 sm:px-2'>
       <ul className='flex'>
         <li className='py-2 px-2 mx-2 text-[#FFB400] font-bold'>Why us?</li>
         <li className='py-2 px-2 mx-2 text-[#FFB400] font-bold'>Services</li>
         <li className='py-2 px-2 mx-2 text-[#FFB400] font-bold'>Company</li>
         <li className='py-2 px-2 mx-2 text-[#FFB400] font-bold'>Blog</li>
-        <li className='py-1 px-2 mx-2 bg-[#FFB400] text-[#143F64] font-bold rounded-sm px-[14px] py-[12px] shadow-2xl' >Talk to an Expert</li>
+        <li className='py-[2px] px-1 mx-1 bg-[#FFB400] text-[#143F64] font-bold rounded-sm px-[7px] py-[6px] shadow-2xl' >Talk to an Expert</li>
       </ul>
       </div>
     </div>
