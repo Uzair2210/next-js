@@ -7,7 +7,7 @@ const Navbar = () => {
   }
   return (
   <nav className='bg-[#143F64]'>
-   <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 '>
+   <div className='w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-12'>
      <div className='flex items-center justify-between py-4 h-20'>
       <div className='flex items-center'>
         <div className='flex-shrink-0'>
@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       </div>
       <div className='hidden md:block'>
-        <div className='ml-4 flex items-center space-x-4'>
+        <div className='ml-4 flex items-center space-x-4 md:space-x-2 md:text-sm md:ml-2'>
         <ul className='flex'>
         <li className='py-2 px-2 mx-2 text-[#FFB400] font-bold'>Why us?</li>
         <li className='py-2 px-2 mx-2 text-[#FFB400] font-bold'>Services</li>
@@ -38,13 +38,13 @@ const Navbar = () => {
    </div>
    {isClick &&(
     <div className='md:hidden'>
-      <div className='px-1 pt-2 pb-3 space-y-1 sm:px-2'>
+      <div className='px-1 pt-2 pb-3 space-y-[2px] text-sm sm:px-2'>
       <ul className='flex'>
-        <li className='py-2 px-2 mx-2 text-[#FFB400] font-bold'>Why us?</li>
-        <li className='py-2 px-2 mx-2 text-[#FFB400] font-bold'>Services</li>
-        <li className='py-2 px-2 mx-2 text-[#FFB400] font-bold'>Company</li>
-        <li className='py-2 px-2 mx-2 text-[#FFB400] font-bold'>Blog</li>
-        <li className='py-[2px] px-1 mx-1 bg-[#FFB400] text-[#143F64] font-bold rounded-sm px-[7px] py-[6px] shadow-2xl' >Talk to an Expert</li>
+        <li className='py-2 px-1 mx-1 text-[#FFB400] font-bold'>Why us?</li>
+        <li className='py-2 px-1 mx-1 text-[#FFB400] font-bold'>Services</li>
+        <li className='py-2 px-1 mx-1 text-[#FFB400] font-bold'>Company</li>
+        <li className='py-2 px-1 mx-1 text-[#FFB400] font-bold'>Blog</li>
+        <li className='py-2 px-2 mx-1 bg-[#FFB400] text-[#143F64] font-bold rounded-sm shadow-2xl' >Talk to an Expert</li>
       </ul>
       </div>
     </div>
