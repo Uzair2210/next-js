@@ -203,7 +203,7 @@ const index = () => {
       <div className='bg-[#2B5B84] w-full h-full'>
         <h2 className='text-[#FBD148] p-10 font-bold text-xl leading-[40px] mt-10 md:text-4xl text-center md:leading-[20px] 2xl:text-7xl 2xl:leading-[40px]'>Ready to Grow Your Business?</h2>
         <p className='text-white font-medium tracking-wider text-center text-xl lg:tracking-widest lg:text-2xl 2xl:text-4xl'>Subscribe to our Grow Your Business newsletter</p>
-        <img className='absolute ml-[60%] sm:ml-[70%] md:ml-[80%]' src='images/bell.png' />
+        <img className='absolute ml-[62%] sm:ml-[72%] md:ml-[82%] w-32 lg:w-40' src='images/bell.png' />
         <div className='bg-[#FFC815] w-[70%] h-auto mt-14 rounded-3xl p-10 mx-auto items-center'>
           <div className='lg:flex'>
             <div className=''>
