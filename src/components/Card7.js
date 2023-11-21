@@ -1,0 +1,32 @@
+export default[
+    {
+        img:"images/stack.png",
+    },
+    {
+        img:"images/duck.png",
+    },
+    {
+        img:"images/booking.png",
+    },
+    {
+        img:"images/deviantart.png",
+    },
+    {
+        img:"images/amazon 1.png",
+    },
+    {
+        img:"images/twitt.png",
+    },
+    {
+        img:"images/aveosoft.png",
+    },
+    {
+        img:"images/duolingo.png",
+    },
+    {
+        img:"images/linked.png",
+    },
+    {
+        img:"images/reddit.png",
+    },
+]
